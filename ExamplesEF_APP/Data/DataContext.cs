@@ -9,7 +9,8 @@ namespace ExamplesEF.Data
         {
             
         }
-        public DbSet<Region> Region { get; set; }  
-
+        public DbSet<Region> Region { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        
     }
 }
